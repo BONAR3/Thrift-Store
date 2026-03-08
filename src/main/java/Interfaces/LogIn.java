@@ -1,4 +1,7 @@
 package Interfaces;
 
-public class LogIn {
+public interface LogIn {
+
+    void login();
+
 }

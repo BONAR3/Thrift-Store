@@ -1,5 +1,11 @@
 package Base;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+
 public abstract class User {
 
     private final String name;
@@ -7,27 +13,4 @@ public abstract class User {
     private final int phoneNumber;
     private int age;
 
-
-    public User(int age, int phoneNumber, String email, String name) {
-        this.age = age;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public int getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public int getAge() {
-        return age;
-    }
 }
