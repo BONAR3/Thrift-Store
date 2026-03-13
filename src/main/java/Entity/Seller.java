@@ -1,6 +1,7 @@
 package Entity;
 
 import Base.User;
+import lombok.AllArgsConstructor;
 
 public class Seller extends User {
 
