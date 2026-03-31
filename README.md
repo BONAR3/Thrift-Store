@@ -1,1 +1,5 @@
 THRIFT STORE REPOSITORY
+
+Technology used
+JDK 25
+MAVEN
